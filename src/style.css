@@ -1,1 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: lightgreen;
+}
+
+#mCard {
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+}
+
+#cards {
+  flex-wrap: wrap;
+}
