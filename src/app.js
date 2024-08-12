@@ -135,12 +135,10 @@ const bubbleSort = arr => {
         arr[index] = arr[index + 1];
         arr[index + 1] = aux;
       }
-
       index++;
       stepCount++; // Increment step count
       logStep(arr.slice(), stepCount); // Log the current step with step count
     }
-
     n--; //decrease the wall for optimization
   }
 
